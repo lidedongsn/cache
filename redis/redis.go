@@ -34,7 +34,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/garyburd/redigo/redis"
-	"github.com/lidedong/cache"
+	"github.com/lidedongsn/cache"
 	"strconv"
 	"time"
 )
