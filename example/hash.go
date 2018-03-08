@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"github.com/garyburd/redigo/redis"
-	"github.com/lidedong/cache"
-	_ "github.com/lidedong/cache/redis"
+	"github.com/lidedongsn/cache"
+	_ "github.com/lidedongsn/cache/redis"
 	"os"
 )
 
