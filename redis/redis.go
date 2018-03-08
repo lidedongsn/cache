@@ -33,12 +33,10 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/garyburd/redigo/redis"
+	"github.com/lidedong/cache"
 	"strconv"
 	"time"
-
-	"github.com/garyburd/redigo/redis"
-
-	"lide/redis/cache"
 )
 
 var (
